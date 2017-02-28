@@ -1,6 +1,6 @@
 Landing Page Code Sample
 
-**pages where intentionally not optimize for mobile/tablets ( responsive ), to avoid Plagiarism.**
+**pages where intentionally not optimize for mobile/tablets ( responsive ), to avoid/prevent Plagiarism.**
 
 **These are sample code projects, I hold the rights to them ( Code ), you're not permited to copy/modify withou my explicit permission**
 
