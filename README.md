@@ -2,7 +2,7 @@ Landing Page Code Sample
 
 **pages where intentionally not optimize for mobile/tablets ( responsive ), to avoid/prevent Plagiarism.**
 
-**These are sample code projects, I hold the rights to them ( Code ), you're not permited to copy/modify without my explicit permission**
+**These are sample code projects, I hold the rights to them ( Code ), you're not permited to copy/modify them without my explicit permission**
 
 
 ### Real pixes ( Landing Page )
