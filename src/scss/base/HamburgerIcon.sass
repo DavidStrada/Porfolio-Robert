@@ -1,0 +1,51 @@
+$outer-space: #263238;
+$color: #ecf0f1
+
+$height-icon: 20px
+$width-line: 35px
+$height-line: 4px
+
+$transition-time: .4s
+$rotation: 45deg
+$translateY: ($height-icon / 2)
+$translateX: 0
+
+.HamburgerIcon
+  width: $width-line
+  height: $height-icon
+  position: relative
+  display: block
+  background-color: transparent
+  border: 0
+  top: 23px
+  left: 21px
+  outline: none
+  cursor: pointer
+
+  .line
+    display: block
+    background: $outer-space
+    width: $width-line
+    height: $height-line
+    position: absolute
+    left: 0
+    transition: all $transition-time
+
+    &.line-1
+      top: 0
+
+    &.line-2
+      top: 9px
+
+    &.line-3
+      top: 18px
+
+  &.is-active
+    .line-1
+      transform: translateY($translateY) translateX($translateX) rotate($rotation)
+
+    .line-2
+      opacity: 0
+
+    .line-3
+      transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1)

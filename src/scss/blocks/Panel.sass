@@ -1,0 +1,38 @@
+.Panel
+  &-withImage
+    display: flex
+    height: 900px
+    width: 100%
+    flex-direction: column
+    justify-content: flex-end
+
+  &--Bg1
+    background: transparent url('../assets/panel_img_bg.jpg') no-repeat center top/cover
+
+  &--Bg2
+    background: transparent url('../assets/panel_img_bg2.jpg') no-repeat center center/cover
+
+  &-mainContent
+    color: $white
+    margin-bottom: 110px
+    padding: 0 calc(100% - 84%)
+
+  &-title
+    font-size: 56px
+    font-weight: 500
+    line-height: .8
+    margin-bottom: 25px
+
+  &-content
+    font-size: 24px
+    font-weight: 400
+    margin-bottom: 30px
+
+  &-contentLink
+    border-bottom: 3px solid $white
+    font-weight: bold
+    font-size: 24px
+    padding-bottom: 10px
+    transition: all .3s ease-in-out
+    &:hover
+      border-color: $link

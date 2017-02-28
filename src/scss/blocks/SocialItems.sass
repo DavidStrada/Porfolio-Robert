@@ -1,0 +1,51 @@
+$social-bg: #f5f5f5
+$shadow: rgba(0, 0, 0, .25)
+$facebook: #425f9c
+$twitter: #1da1f2
+$linkedin: #0077b5
+$social-color: #546e7a
+
+.SocialItems
+  background-color: $social-bg
+  padding: 6rem 9rem
+
+  h4
+    font-weight: bold
+    color: $social-color
+
+  ul
+    list-style: none
+    margin: 0
+    li
+      display: inline-block
+      margin-right: 5px
+
+
+  &--twitter
+    &:hover
+      i
+        color: $twitter
+      h4
+        color: $twitter
+
+  &--facebook
+    &:hover
+      i
+        color: $facebook
+      h4
+        color: $facebook
+
+  &--linkedin
+    &:hover
+      i
+        color: $linkedin
+      h4
+        color: $linkedin
+
+  &-content
+    color: $social-color
+    padding: 1rem
+    transition: all .3s ease-in-out
+    &:hover
+      background-color: $white
+      box-shadow: 4px 0 16px $shadow

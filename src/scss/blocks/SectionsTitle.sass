@@ -1,0 +1,24 @@
+$yellow: #ffd740
+
+.SectionsTitle
+  &-tagline
+    font-size: 1.75em
+    font-weight: $weight-bold
+    margin-bottom: 40px
+    position: relative
+
+    &:after
+      background-color: $white
+      bottom: -10px
+      content: ''
+      height: 4px
+      left: 45px
+      position: absolute
+      width: 250px
+
+  &--yellow
+    color: $yellow
+
+  &--changeBorder
+    &:after
+      background-color: $yellow
