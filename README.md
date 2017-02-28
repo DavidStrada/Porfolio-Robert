@@ -1,5 +1,10 @@
 Landing Page Code Sample
 
+**pages where intentionally not optimize for mobile/tablets ( responsive ), to avoid Plagiarism.**
+
+**These are sample code projects, I hold the rights to them ( Code ), you're not permited to copy/modify withou my explicit permission**
+
+
 ### Real pixes ( Landing Page )
 
 - Build using modern web techniques / frameworks
